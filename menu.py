@@ -23,7 +23,6 @@ name = "藏壽司 本月Menu:\n\n"
 price = ""
 for n, p in zip(allname, allprice):
     name = name+n.getText()+" "+p.getText()+'\n'
-print(name)
 
 LINE_UUID = os.environ['LINE_UUID']
 TOKEN = os.environ['TOKEN']
