@@ -2,7 +2,6 @@ import requests as requests
 from bs4 import BeautifulSoup
 from linebot import LineBotApi
 from linebot.models import TextSendMessage
-import pandas as pd
 import os
 
 
